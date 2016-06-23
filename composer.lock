@@ -3116,12 +3116,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/MarkoKaartinen/flarum-ext-finnish.git",
-                "reference": "777d06a362c3340d7954449f04b29daa66eba78f"
+                "reference": "5850cbdb1cacc9f9798730d16bd69bfbb0d1c7c5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/MarkoKaartinen/flarum-ext-finnish/zipball/777d06a362c3340d7954449f04b29daa66eba78f",
-                "reference": "777d06a362c3340d7954449f04b29daa66eba78f",
+                "url": "https://api.github.com/repos/MarkoKaartinen/flarum-ext-finnish/zipball/5850cbdb1cacc9f9798730d16bd69bfbb0d1c7c5",
+                "reference": "5850cbdb1cacc9f9798730d16bd69bfbb0d1c7c5",
                 "shasum": ""
             },
             "require": {
@@ -3162,7 +3162,7 @@
             "keywords": [
                 "locale"
             ],
-            "time": "2016-06-23 06:40:56"
+            "time": "2016-06-23 07:05:39"
         },
         {
             "name": "matthiasmullie/minify",
