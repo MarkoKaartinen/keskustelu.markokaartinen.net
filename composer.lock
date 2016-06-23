@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "8b2ccd3635aa83f830d8445064c86345",
-    "content-hash": "42a0c9318affdcc3f6c7e2ba5504f547",
+    "hash": "d05fa1cd34149742031010c6b56ee4fe",
+    "content-hash": "6e602697d7ace34256feceeacc9967c1",
     "packages": [
         {
             "name": "danielstjules/stringy",
@@ -3112,7 +3112,7 @@
         },
         {
             "name": "markokaartinen/flarum-ext-finnish",
-            "version": "v0.1.4",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/MarkoKaartinen/flarum-ext-finnish.git",
@@ -4533,7 +4533,9 @@
     ],
     "aliases": [],
     "minimum-stability": "beta",
-    "stability-flags": [],
+    "stability-flags": {
+        "markokaartinen/flarum-ext-finnish": 20
+    },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": [],
