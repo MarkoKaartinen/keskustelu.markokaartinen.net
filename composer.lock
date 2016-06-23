@@ -3116,12 +3116,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/MarkoKaartinen/flarum-ext-finnish.git",
-                "reference": "8aa762578da4b7cc7d47f5cbee7ca0c7227c5dcc"
+                "reference": "777d06a362c3340d7954449f04b29daa66eba78f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/MarkoKaartinen/flarum-ext-finnish/zipball/8aa762578da4b7cc7d47f5cbee7ca0c7227c5dcc",
-                "reference": "8aa762578da4b7cc7d47f5cbee7ca0c7227c5dcc",
+                "url": "https://api.github.com/repos/MarkoKaartinen/flarum-ext-finnish/zipball/777d06a362c3340d7954449f04b29daa66eba78f",
+                "reference": "777d06a362c3340d7954449f04b29daa66eba78f",
                 "shasum": ""
             },
             "require": {
@@ -3133,7 +3133,7 @@
                     "dev-master": "0.1.x-dev"
                 },
                 "flarum-extension": {
-                    "title": "Finnish",
+                    "title": "Suomi",
                     "icon": {
                         "image": "icon.svg",
                         "backgroundColor": "#FFFFFF",
@@ -3143,7 +3143,7 @@
                 },
                 "flarum-locale": {
                     "code": "fi",
-                    "title": "Finnish"
+                    "title": "Suomi"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -3162,7 +3162,7 @@
             "keywords": [
                 "locale"
             ],
-            "time": "2016-06-23 06:12:25"
+            "time": "2016-06-23 06:40:56"
         },
         {
             "name": "matthiasmullie/minify",
