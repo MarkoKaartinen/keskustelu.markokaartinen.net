@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "d05fa1cd34149742031010c6b56ee4fe",
-    "content-hash": "6e602697d7ace34256feceeacc9967c1",
+    "hash": "b86a3fda1393bb3589a154c3d31448a0",
+    "content-hash": "4c4ec79b01df4ec94b36a2bf6263f478",
     "packages": [
         {
             "name": "danielstjules/stringy",
@@ -3691,6 +3691,58 @@
             "time": "2016-03-20 10:22:44"
         },
         {
+            "name": "sijad/flarum-ext-links",
+            "version": "0.1.0-beta.6",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sijad/flarum-ext-links.git",
+                "reference": "29c451034033894803568f66432ce7ebee938ae9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sijad/flarum-ext-links/zipball/29c451034033894803568f66432ce7ebee938ae9",
+                "reference": "29c451034033894803568f66432ce7ebee938ae9",
+                "shasum": ""
+            },
+            "require": {
+                "flarum/core": "^0.1.0-beta.5"
+            },
+            "type": "flarum-extension",
+            "extra": {
+                "flarum-extension": {
+                    "title": "Links",
+                    "icon": {
+                        "name": "bars",
+                        "backgroundColor": "#83AF9B",
+                        "color": "#fff"
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Sijad\\Links\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Sajjad Hashemian",
+                    "email": "wolaws@gmail.com"
+                }
+            ],
+            "description": "Manage flarum primary navbar menu links.",
+            "keywords": [
+                "item",
+                "link",
+                "menu",
+                "nav"
+            ],
+            "time": "2016-05-03 20:05:44"
+        },
+        {
             "name": "swiftmailer/swiftmailer",
             "version": "v5.4.2",
             "source": {
@@ -4534,7 +4586,8 @@
     "aliases": [],
     "minimum-stability": "beta",
     "stability-flags": {
-        "markokaartinen/flarum-ext-finnish": 20
+        "markokaartinen/flarum-ext-finnish": 20,
+        "sijad/flarum-ext-links": 10
     },
     "prefer-stable": true,
     "prefer-lowest": false,
