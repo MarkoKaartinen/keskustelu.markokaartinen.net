@@ -41,7 +41,12 @@
         "flarum/flarum-ext-suspend": "^0.1.0",
         "flarum/flarum-ext-tags": "^0.1.0",
         "markokaartinen/flarum-ext-finnish": "dev-master",
-        "sijad/flarum-ext-links": "^0.1.0@beta"
+        "sijad/flarum-ext-links": "^0.1.0@beta",
+        "sijad/flarum-ext-pages": "^0.1.0@beta",
+        "sijad/flarum-ext-github-autolink": "^0.1.1@beta",
+        "davis/flarum-ext-securehttps": "^0.1.0@beta",
+        "flagrow/flarum-ext-analytics": "^0.4.0",
+        "davis/flarum-ext-socialprofile": "^0.1.7"
     },
     "require-dev": {
         "franzl/studio": "^0.10.0"

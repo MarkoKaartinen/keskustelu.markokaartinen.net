@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "b86a3fda1393bb3589a154c3d31448a0",
-    "content-hash": "4c4ec79b01df4ec94b36a2bf6263f478",
+    "hash": "630c93551b7242dc6455c6dfce879658",
+    "content-hash": "f0166b9a8c23a0bf1323d6ac337f6613",
     "packages": [
         {
             "name": "danielstjules/stringy",
@@ -62,6 +62,114 @@
                 "utils"
             ],
             "time": "2015-07-23 00:54:12"
+        },
+        {
+            "name": "davis/flarum-ext-securehttps",
+            "version": "0.1.0-beta4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/dav-is/flarum-ext-securehttps.git",
+                "reference": "c4d11f17b35cb8fb0f1ffc0936c953ab539a4997"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/dav-is/flarum-ext-securehttps/zipball/c4d11f17b35cb8fb0f1ffc0936c953ab539a4997",
+                "reference": "c4d11f17b35cb8fb0f1ffc0936c953ab539a4997",
+                "shasum": ""
+            },
+            "require": {
+                "flarum/core": "^0.1.0-beta.5"
+            },
+            "type": "flarum-extension",
+            "extra": {
+                "flarum-extension": {
+                    "title": "Secure HTTPS",
+                    "icon": {
+                        "name": "lock",
+                        "backgroundColor": "#000",
+                        "color": "green"
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Davis\\SecureHttps\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Connor Davis",
+                    "email": "davis@produes.co"
+                }
+            ],
+            "description": "Changes all images using http to https",
+            "keywords": [
+                "customization",
+                "davis",
+                "flarum",
+                "https",
+                "images"
+            ],
+            "time": "2016-05-07 00:25:43"
+        },
+        {
+            "name": "davis/flarum-ext-socialprofile",
+            "version": "0.1.7",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/dav-is/flarum-socialprofile.git",
+                "reference": "830845e916c02ac52f18a9a643143e7dfe4026b0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/dav-is/flarum-socialprofile/zipball/830845e916c02ac52f18a9a643143e7dfe4026b0",
+                "reference": "830845e916c02ac52f18a9a643143e7dfe4026b0",
+                "shasum": ""
+            },
+            "require": {
+                "flarum/core": "^0.1.0-beta.5"
+            },
+            "type": "flarum-extension",
+            "extra": {
+                "flarum-extension": {
+                    "title": "Social Profile",
+                    "icon": {
+                        "image": "icon.jpg",
+                        "backgroundColor": "#000",
+                        "backgroundSize": "100%",
+                        "backgroundRepeat": "no-repeat",
+                        "backgroundPosition": "center"
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Davis\\SocialProfile\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Connor Davis",
+                    "email": "davis@produes.co"
+                }
+            ],
+            "description": "Allows addition of Social Media buttons to profile",
+            "keywords": [
+                "customization",
+                "davis",
+                "flarum",
+                "profile",
+                "social"
+            ],
+            "time": "2016-04-25 19:23:18"
         },
         {
             "name": "dflydev/fig-cookies",
@@ -641,6 +749,62 @@
                 "zf2"
             ],
             "time": "2015-06-29 05:42:04"
+        },
+        {
+            "name": "flagrow/flarum-ext-analytics",
+            "version": "0.4.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/flagrow/flarum-ext-analytics.git",
+                "reference": "e4472776f966f08cd867a6edf752d81d52118304"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/flagrow/flarum-ext-analytics/zipball/e4472776f966f08cd867a6edf752d81d52118304",
+                "reference": "e4472776f966f08cd867a6edf752d81d52118304",
+                "shasum": ""
+            },
+            "require": {
+                "flarum/core": "^0.1.0-beta.5"
+            },
+            "type": "flarum-extension",
+            "extra": {
+                "flarum-extension": {
+                    "title": "Analytics",
+                    "icon": {
+                        "name": "line-chart",
+                        "backgroundColor": "#74000E",
+                        "color": "#BE1E31"
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Flagrow\\Analytics\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Daniël Klabbers",
+                    "email": "daniel+flarum@klabbers.email",
+                    "homepage": "http://hyn.io"
+                },
+                {
+                    "name": "Santiago Testa Biali",
+                    "email": "santiago.t.biali@gmail.com"
+                }
+            ],
+            "description": "Tracks analytics using googles and piwik metric tool analytics",
+            "keywords": [
+                "analytics",
+                "flagrow",
+                "flarum"
+            ],
+            "time": "2016-04-01 19:15:57"
         },
         {
             "name": "flarum/core",
@@ -3691,6 +3855,58 @@
             "time": "2016-03-20 10:22:44"
         },
         {
+            "name": "sijad/flarum-ext-github-autolink",
+            "version": "0.1.1-beta.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sijad/flarum-ext-github-autolink.git",
+                "reference": "56df7ddd3e35993580f099987a165c3256eb794e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sijad/flarum-ext-github-autolink/zipball/56df7ddd3e35993580f099987a165c3256eb794e",
+                "reference": "56df7ddd3e35993580f099987a165c3256eb794e",
+                "shasum": ""
+            },
+            "require": {
+                "flarum/core": "^0.1.0-beta.4"
+            },
+            "type": "flarum-extension",
+            "extra": {
+                "flarum-extension": {
+                    "title": "Github Autolink",
+                    "icon": {
+                        "name": "github-alt",
+                        "backgroundColor": "#eaeaea",
+                        "color": "#4078c0"
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Sijad\\GithubAutolink\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Sajjad Hashemian",
+                    "email": "wolaws@gmail.com"
+                }
+            ],
+            "description": "Autolink github Issues and commits",
+            "keywords": [
+                "autolink",
+                "commit",
+                "github",
+                "issue"
+            ],
+            "time": "2016-04-22 08:36:24"
+        },
+        {
             "name": "sijad/flarum-ext-links",
             "version": "0.1.0-beta.6",
             "source": {
@@ -3741,6 +3957,56 @@
                 "nav"
             ],
             "time": "2016-05-03 20:05:44"
+        },
+        {
+            "name": "sijad/flarum-ext-pages",
+            "version": "0.1.0-beta.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sijad/flarum-ext-pages.git",
+                "reference": "3f3ac925d0314e4dbfb9aa2fde5d1dcbd689f380"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sijad/flarum-ext-pages/zipball/3f3ac925d0314e4dbfb9aa2fde5d1dcbd689f380",
+                "reference": "3f3ac925d0314e4dbfb9aa2fde5d1dcbd689f380",
+                "shasum": ""
+            },
+            "require": {
+                "flarum/core": "^0.1.0-beta.5"
+            },
+            "type": "flarum-extension",
+            "extra": {
+                "flarum-extension": {
+                    "title": "Pages",
+                    "icon": {
+                        "name": "file-text-o",
+                        "backgroundColor": "#4C49A2",
+                        "color": "#B8DC3C"
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Sijad\\Pages\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Sajjad Hashemian",
+                    "email": "wolaws@gmail.com"
+                }
+            ],
+            "description": "Create custom page with Flarum",
+            "keywords": [
+                "page",
+                "static"
+            ],
+            "time": "2016-04-18 18:30:17"
         },
         {
             "name": "swiftmailer/swiftmailer",
@@ -4587,7 +4853,10 @@
     "minimum-stability": "beta",
     "stability-flags": {
         "markokaartinen/flarum-ext-finnish": 20,
-        "sijad/flarum-ext-links": 10
+        "sijad/flarum-ext-links": 10,
+        "sijad/flarum-ext-pages": 10,
+        "sijad/flarum-ext-github-autolink": 10,
+        "davis/flarum-ext-securehttps": 10
     },
     "prefer-stable": true,
     "prefer-lowest": false,
