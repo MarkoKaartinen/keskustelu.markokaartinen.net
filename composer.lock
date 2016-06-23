@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "fc68977a9b8094c6bfb1e193d948a7ec",
-    "content-hash": "e6a06883268aa19e14a3e6630c8906e6",
+    "hash": "8b2ccd3635aa83f830d8445064c86345",
+    "content-hash": "42a0c9318affdcc3f6c7e2ba5504f547",
     "packages": [
         {
             "name": "danielstjules/stringy",
@@ -3109,6 +3109,60 @@
                 "oauth2"
             ],
             "time": "2016-04-14 01:57:14"
+        },
+        {
+            "name": "markokaartinen/flarum-ext-finnish",
+            "version": "v0.1.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/MarkoKaartinen/flarum-ext-finnish.git",
+                "reference": "8aa762578da4b7cc7d47f5cbee7ca0c7227c5dcc"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/MarkoKaartinen/flarum-ext-finnish/zipball/8aa762578da4b7cc7d47f5cbee7ca0c7227c5dcc",
+                "reference": "8aa762578da4b7cc7d47f5cbee7ca0c7227c5dcc",
+                "shasum": ""
+            },
+            "require": {
+                "flarum/core": "^0.1.0-beta.5"
+            },
+            "type": "flarum-extension",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "0.1.x-dev"
+                },
+                "flarum-extension": {
+                    "title": "Finnish",
+                    "icon": {
+                        "image": "icon.svg",
+                        "backgroundColor": "#FFFFFF",
+                        "backgroundSize": "cover",
+                        "backgroundPosition": "center"
+                    }
+                },
+                "flarum-locale": {
+                    "code": "fi",
+                    "title": "Finnish"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Marko Kaartinen",
+                    "email": "markokaartinen@gmail.com",
+                    "homepage": "http://www.markokaartinen.net"
+                }
+            ],
+            "description": "Finnish language pack.",
+            "homepage": "https://github.com/markokaartinen/flarum-ext-finnish",
+            "keywords": [
+                "locale"
+            ],
+            "time": "2016-06-23 06:12:25"
         },
         {
             "name": "matthiasmullie/minify",
