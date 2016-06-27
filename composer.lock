@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "630c93551b7242dc6455c6dfce879658",
-    "content-hash": "f0166b9a8c23a0bf1323d6ac337f6613",
+    "hash": "f6144852d8981dcd7b5e6cd08d40f1f1",
+    "content-hash": "5ca33fe4df2a5bdfac9e60c13048c717",
     "packages": [
         {
             "name": "danielstjules/stringy",
@@ -3793,6 +3793,51 @@
                 "trigger"
             ],
             "time": "2016-05-27 08:42:18"
+        },
+        {
+            "name": "s9e/flarum-ext-mediaembed",
+            "version": "0.3.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/s9e/flarum-ext-mediaembed.git",
+                "reference": "7041c45cfe368eb083250bae7cd3d5d9587ea711"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/s9e/flarum-ext-mediaembed/zipball/7041c45cfe368eb083250bae7cd3d5d9587ea711",
+                "reference": "7041c45cfe368eb083250bae7cd3d5d9587ea711",
+                "shasum": ""
+            },
+            "require": {
+                "flarum/core": "^0.1.0-beta.3",
+                "php": ">=5.4.0"
+            },
+            "type": "flarum-extension",
+            "extra": {
+                "flarum-extension": {
+                    "title": "MediaEmbed",
+                    "icon": {
+                        "name": "youtube-play",
+                        "backgroundColor": "#cc181e",
+                        "color": "#fff"
+                    }
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Embed third-party content in your Flarum.",
+            "keywords": [
+                "embed",
+                "facebook",
+                "flarum",
+                "media",
+                "twitch",
+                "twitter",
+                "youtube"
+            ],
+            "time": "2015-12-04 17:40:51"
         },
         {
             "name": "s9e/text-formatter",
