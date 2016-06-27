@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "f6144852d8981dcd7b5e6cd08d40f1f1",
-    "content-hash": "5ca33fe4df2a5bdfac9e60c13048c717",
+    "hash": "6698daaaa8e6fec1da604393e42b05b2",
+    "content-hash": "8c908dfced9034dcbb099f20fc26cd3d",
     "packages": [
         {
             "name": "danielstjules/stringy",
@@ -805,6 +805,56 @@
                 "flarum"
             ],
             "time": "2016-04-01 19:15:57"
+        },
+        {
+            "name": "flagrow/flarum-ext-guardian",
+            "version": "0.1.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/flagrow/flarum-ext-guardian.git",
+                "reference": "fe88324b783d14fb8fcddd75507c6c8206fe5569"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/flagrow/flarum-ext-guardian/zipball/fe88324b783d14fb8fcddd75507c6c8206fe5569",
+                "reference": "fe88324b783d14fb8fcddd75507c6c8206fe5569",
+                "shasum": ""
+            },
+            "require": {
+                "flarum/core": "^0.1.0-beta.3"
+            },
+            "type": "flarum-extension",
+            "extra": {
+                "flarum-extension": {
+                    "title": "Guardian",
+                    "icon": {
+                        "name": "user-secret",
+                        "backgroundColor": "#74000E",
+                        "color": "#BE1E31"
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Hyn\\Guardian\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Daniël Klabbers",
+                    "email": "daniel+flarum@klabbers.email",
+                    "homepage": "http://hyn.io"
+                }
+            ],
+            "description": "Adds additional security to Flarum",
+            "keywords": [
+                "security"
+            ],
+            "time": "2015-12-16 09:18:34"
         },
         {
             "name": "flarum/core",
